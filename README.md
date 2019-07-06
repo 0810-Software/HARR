@@ -15,7 +15,7 @@ HARR (Hackey Admin Rights Request(er)) is a utility that helps me (and maybe you
 
 You can view or download HARR's code at [It's Github repo](https://github.com/Marnix0810/HARR)
 
-[Go back to 'In this file'](#in-this-file)
+
 ###  2. How to call
 
 HARR's main file is a batch file _(HARR.cmd)_, you can call it following with the filename to run in admin rights.
@@ -35,7 +35,7 @@ call HARR "%~s0"
 )
 ```
 
-[Go back to 'In this file'](#in-this-file)
+
 ###  3. How to use in other projects
 
 Since HARR is designed for HackeyBlock, it is equiped with the request name 'Hackey Admin Rights Request.exe' and with an HackeyBlock icon. You can change this.
@@ -59,4 +59,4 @@ Replacing the request name:
 2. update 'HARR-prcesr.HARRset' to the renamed file.
 
 
-[Go back to 'In this file'](#in-this-file)
+You can find the online version of this readme at https://github.com/Marnix0810/HARR/blob/master/README.md
