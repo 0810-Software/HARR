@@ -42,21 +42,21 @@ Since HARR is designed for HackeyBlock, it is equiped with the request name 'Hac
 
 	Replacing the icon:
 
-    1. install WinRAR trial-version, this for the replacement of the icon.
-    2. Open 'Hackey Admin Rights Request.exe' with WinRAR, this should be one of the options after right-clicking the file.
-    3. Right-above, click on the [SFX] button.
-    4. In the dialog window that opens, click on [advanced sfx-options].
-    5. Click the  [Advanced] tab
-    6. Opt-in on 'Ask for admin rights'
-    7. Click the  [Text & icon] tab.
-    8. Click on [Browse] aside 'load SFX-icon from file...'
-    9. click [OK]
-    10. the logo should be replaced.
+1. install WinRAR trial-version, this for the replacement of the icon.
+2. Open 'Hackey Admin Rights Request.exe' with WinRAR, this should be one of the options after right-clicking the file.
+3. Right-above, click on the [SFX] button.
+4. In the dialog window that opens, click on [advanced sfx-options].
+5. Click the  [Advanced] tab
+6. Opt-in on 'Ask for admin rights'
+7. Click the  [Text & icon] tab.
+8. Click on [Browse] aside 'load SFX-icon from file...'
+9. click [OK]
+10. the logo should be replaced.
 
 Replacing the request name:
 
-    1. rename 'Hackey Admin Rights Request.exe' to your desire
-    2. update 'HARR-prcesr.HARRset' to the renamed file.
+1. rename 'Hackey Admin Rights Request.exe' to your desire
+2. update 'HARR-prcesr.HARRset' to the renamed file.
 
 
 [Go back to 'In this file'](#in-this-file)
