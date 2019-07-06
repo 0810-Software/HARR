@@ -1,4 +1,4 @@
-# HARR - Hackey Admin Rights Request (ver. 1.3)
+# HARR - Hackey Admin Rights Request (ver. 1.3/Readme ver. 1.1.8)
 HARR (Hackey Admin Rights Request(er)) is a utility that helps me (and maybe you) to request admin rights from scripts (HARR was designed for batch scripts).
 
 
