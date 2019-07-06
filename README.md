@@ -4,7 +4,7 @@ HARR (Hackey Admin Rights Request(er)) is a utility that helps me (and maybe you
 
 
 ## In this file:
-1. [What is HARR?](https://github.com/Marnix0810/HARR/blob/master/README.md#1-what-is-harr)
+1. [What is HARR?](#1-what-is-harr)
 2. [How to call?](https://github.com/Marnix0810/HARR/blob/master/README.md#2-how-to-call)
 3. [How to use in other projects?](https://github.com/Marnix0810/HARR/blob/master/README.md#3-how-to-use-in-other-projects)
 
