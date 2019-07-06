@@ -2,7 +2,6 @@
 title HARR - Hackey Admin Rights Request (ver. 1.3)
 set /p "prcesr="<"%~dp0HARR-prcesr.HARRset"
 title HARR - %prcesr:.exe=% (ver. 1.3)
-if exist %prcesr%.asset (ren %prcesr%.asset %prcesr%)
 goto errorcheck
 :main
 set temprand=%random%
