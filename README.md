@@ -28,6 +28,7 @@ How to start 'file.bat' with admin rights:
 How to request admin rights from a batch script:
 
 ```
+@echo off
 if not "%Adminrequested%"=="1" (
 call HARR "%~s0"
 )
