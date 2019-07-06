@@ -1,6 +1,6 @@
 HARR - Hackey Admin Rights Request (ver. 1.4)
 
-(Readme ver. 1.4.0-plaintext)
+(Readme ver. 1.5.0-plaintext)
 
 In this file:
 
