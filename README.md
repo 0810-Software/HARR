@@ -3,9 +3,9 @@ HARR (Hackey Admin Rights Request(er)) is a utility that helps me (and maybe you
 
 
 ## In this file:
-1. [What is HARR?]()
-2. [How to call?]()
-3. [How to use in other projects?]()
+1. [What is HARR?](https://github.com/Marnix0810/HARR/blob/master/README.md#1-what-is-harr)
+2. [How to call?](https://github.com/Marnix0810/HARR/blob/master/README.md#2-how-to-call)
+3. [How to use in other projects?](https://github.com/Marnix0810/HARR/blob/master/README.md#3-how-to-use-in-other-projects)
 
 
 ###  1. What is HARR
@@ -14,22 +14,26 @@ HARR is a utility that helps me (and maybe you) to request admin right from scri
 
 You can view or download HARR's code at [It's Github repo](https://github.com/Marnix0810/HARR)
 
+[Go back to 'In this file'](https://github.com/Marnix0810/HARR/blob/master/README.md#in-this-file)
 ###  2. How to call
 
-HARR's main file is a batch file [HARR.cmd], you can call it following with the filename to run in admin rights.
+HARR's main file is a batch file _(HARR.cmd)_, you can call it following with the filename to run in admin rights.
 
-	Examples:
+Examples:
 
-		How to start 'file.bat' with admin rights:
+How to start 'file.bat' with admin rights:
 
-			HARR file.bat
+`HARR file.bat`
 
-		How to request admin rights from a batch script:
+How to request admin rights from a batch script:
 
-			if not "%Adminrequested%"=="1" (
-			call HARR "%~s0"
-			)
+```
+if not "%Adminrequested%"=="1" (
+call HARR "%~s0"
+)
+```
 
+[Go back to 'In this file'](https://github.com/Marnix0810/HARR/blob/master/README.md#in-this-file)
 ###  3. How to use in other projects
 
 Since HARR is part of HackeyBlock, it is equiped with the request name 'Hackey Admin Rights Request.exe' and with an HackeyBlock icon. You can change this.
@@ -51,3 +55,6 @@ Replacing the request name:
 
     1. rename 'Hackey Admin Rights Request.exe' to your desire
     2. update 'HARR-prcesr.HARRset' to the renamed file.
+
+
+[Go back to 'In this file'](https://github.com/Marnix0810/HARR/blob/master/README.md#in-this-file)
