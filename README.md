@@ -1,5 +1,5 @@
 # HARR - Hackey Admin Rights Request (ver. 1.3)
-*_<dl><small>(Readme ver. 1.3.9)</small></dl>_*
+*_<dl><small>(Readme ver. 1.3.10)</small></dl>_*
 
 
 
