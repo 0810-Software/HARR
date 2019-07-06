@@ -1,7 +1,8 @@
 @echo off
-title HARR - Hackey Admin Rights Request (ver. 1.3)
+set harrver=1.5
+title HARR - Hackey Admin Rights Request (ver. %harrver%)
 set /p "prcesr="<"%~dp0HARR-prcesr.HARRset"
-title HARR - %prcesr:.exe=% (ver. 1.3)
+title HARR - %prcesr:.exe=% (ver. %harrver%)
 goto errorcheck
 :main
 set temprand=%random%
