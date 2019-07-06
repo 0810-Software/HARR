@@ -36,7 +36,7 @@ call HARR "%~s0"
 [Go back to 'In this file'](https://github.com/Marnix0810/HARR/blob/master/README.md#in-this-file)
 ###  3. How to use in other projects
 
-Since HARR is part of HackeyBlock, it is equiped with the request name 'Hackey Admin Rights Request.exe' and with an HackeyBlock icon. You can change this.
+Since HARR is designed for HackeyBlock, it is equiped with the request name 'Hackey Admin Rights Request.exe' and with an HackeyBlock icon. You can change this.
 
 	Replacing the icon:
 
