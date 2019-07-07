@@ -1,4 +1,4 @@
-HARR - Hackey Admin Rights Request (ver. 1.4)
+HARR - Hackey Admin Rights Request (ver. 1.5)
 
 (Readme ver. 1.5.0-plaintext)
 
