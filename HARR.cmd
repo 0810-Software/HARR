@@ -1,5 +1,5 @@
 @echo off
-set harrver=1.5
+set harrver=1.5.2
 title HARR - Hackey Admin Rights Request (ver. %harrver%)
 set /p "prcesr="<"%~dp0HARR-prcesr.HARRset"
 title HARR - %prcesr:.exe=% (ver. %harrver%)
@@ -14,11 +14,12 @@ cd /d "%tempfold%"
 (
 echo @echo off
 echo set Adminrequested=1
+echo cd /d "%~dp0"
 echo start cmd /c "%~1"
 echo DEl /f /q "%%~s0"
 echo Type nul ^> "%%~s0"
 )>"%tempfold%adminrequestprocessing.cmd"
-start "" "%temprcesr%"
+start "" "%temprcesr%" || goto oldschooladminrequest
 echo on
 @exit
 :errorcheck
@@ -41,7 +42,7 @@ if /I "%~1"=="-read" goto read
 if "%~1"=="/?" goto read
 goto main
 :nope
-echo no admin rights requistred, there was an error.
+echo no admin rights requested, there was an error.
 echo ----------------------------------------------------------
 type HARR-Readme.txt
 echo on
@@ -50,3 +51,16 @@ echo on
 echo ----------------------------------------------------------
 type HARR-Readme.txt
 echo on
+exit /b
+:oldschooladminrequest
+(
+echo @echo off
+echo echo HARR is requesting admin rights...
+type "%~dp0oldschool.HARRfile"
+echo set Adminrequested=1
+echo cd /d "%~dp0"
+echo start cmd /c "%~1"
+echo DEl /f /q "%%~s0"
+echo Type nul ^> "%%~s0"
+)>"%tempfold%adminrequestprocessing.cmd"
+
