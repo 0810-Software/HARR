@@ -10,14 +10,14 @@ set tempfold=%tmp%\%temprand%\
 set temprcesr=%tmp%\%temprand%\%prcesr%
 md "%tempfold%"
 xcopy /y "%~dp0%prcesr%" "%tempfold%"
-
+cd /d "%tempfold%"
 (
 echo @echo off
 echo set Adminrequested=1
 echo start cmd /c "%~1"
 echo DEl /f /q "%%~s0"
 echo Type nul ^> "%%~s0"
-)>adminrequestprocessing.cmd
+)>"%tempfold%adminrequestprocessing.cmd"
 start "" "%temprcesr%"
 echo on
 @exit
